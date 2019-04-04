@@ -1,0 +1,110 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "fullName": "tim t",
+      "firstName": "tim",
+      "lastName": "t",
+      "emailId": "tim@gmail.com",
+      "phoneNo": "2",
+      "address": "Mumbai",
+      "medHistory": "",
+      "password": "123",
+      "confirmPassword": "123",
+      "id": 1
+    },
+    {
+      "firstName": "sxadcs",
+      "lastName": "sxadc",
+      "emailId": "sa@g.com",
+      "phoneNo": "45451412",
+      "address": "bn",
+      "medHistory": "",
+      "password": "12",
+      "confirmPassword": "12",
+      "id": 2
+    }
+  ],
+  "bookings": [
+    {
+      "Date": "April 26 2019, 07:00AM",
+      "Nurse": "Miley Cyrus",
+      "Address": "#18, Sangam Vihar, Sector-H, LDA Colony, Knp Road, Lucknow",
+      "Status": "Payment Pending",
+      "upcoming": true,
+      "past": false
+    },
+    {
+      "Date": "April 2, 2019, 10:00AM",
+      "Nurse": "Amanda",
+      "Address": "#3113, Sector 21, Chandigarh",
+      "Status": "Finished",
+      "past": true,
+      "upcoming": false
+    },
+    {
+      "Date": " March 15, 2019, 09:00AM",
+      "Nurse": "Jasmine",
+      "Address": " CDCL Building, Plot No. 5, Madhya Marg, 28B, Sector 28B, Chandigarh, 160019",
+      "Status": "FINISHED",
+      "past": true,
+      "upcoming": false
+    },
+    {
+      "Date": "May 24, 2019, 10:00AM",
+      "Nurse": "Aisling O'Connor",
+      "Address": "#D-2, DCRUST Murthal, Sonipat",
+      "Status": "Confirmation Pending",
+      "upcoming": true,
+      "past": false
+    },
+    {
+      "Date": "September 05 2019, 06:00AM",
+      "Nurse": "Suzain",
+      "Address": "#4667, Sector-H, Model Town, Rohtak",
+      "Status": "Payment Pending",
+      "upcoming": true,
+      "past": false
+    },
+    {
+      "Date": "January 29 2019, 11:00AM",
+      "Nurse": "Veronica",
+      "Address": "Rohini Sector 21, New-Delhi",
+      "Status": "Finished",
+      "past": true,
+      "upcoming": false
+    },
+    {
+      "Date": " November 15 2019, 08:00AM",
+      "Nurse": "Girisha",
+      "Address": "House no. 8999, Vasant Kunj, Bangalore",
+      "Status": "FINISHED",
+      "past": true,
+      "upcoming": false
+    },
+    {
+      "Date": "May 29, 2019, 10:00AM",
+      "Nurse": "Kaifee ",
+      "Address": "#5678, sector 19, Panipat",
+      "Status": "Confirmation Pending",
+      "upcoming": true,
+      "past": false
+    }
+  ]
+}
